@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <label for="num1">ENTER NUMBER</label><br>
+        <input type="number" name="num1" id="num1"><br>
+        <label for="num2">ENTER NUMBER</label>\<br>
+        <input type="number" name="num2" id="num2"><br>
+        <p name="output"></p>
+        <button onclick="math()" name="sub" >Nigger</button>
+    <script>
+        function math(){
+            let x = document.getElementById("num1").value;
+            let y = document.getElementById("num2").value;
+
+            let add = x + y;
+            let sub = x - y;
+            let div = x / y;
+            let mul = x * y;
+            
+            let output = document.getElementById("output"); 
+            
+            output.textContent = "sum =" + add + "difference =" + sub + "quotient =" + div + "product" + mul;
+
+        }
+    </script>
+</body>
+</html>
