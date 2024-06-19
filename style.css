@@ -1,0 +1,66 @@
+body{
+    background-color: #454343;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: rgb(69, 69, 69);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav a:hover{
+    background-color: #676767;
+}
+.nav li{
+    float: left;
+}
+.home-txt{
+    position: relative;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+#nyan{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+}
+.profile-txt{
+    position: relative;
+    left: 10px;
+}
+#profTxt{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    font-size: larger;
+    margin-bottom: 0px;
+}
+#profUl{
+    color: white;
+    font-size: larger;
+    float: left;
+    padding-left: 25px;
+}
+#hysH1{
+    text-align: center;
+    color: white;
+}
+#hysH3{
+    text-align: center;
+    color: rgb(200, 65, 65);
+}
+.images{
+    width: 100%;
+}
